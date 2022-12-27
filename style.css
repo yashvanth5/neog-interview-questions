@@ -104,20 +104,28 @@ h1,p{
 }
 
 
-/* button {
+button {
     padding: 0.2rem 0.8rem;
     margin: 0 0.3rem;
     font-size: 1rem;
 } 
 
-#pull-request {
+/* #pull-request {
     font-size: 1.2rem;
     max-width: 900px;
     padding: 0 1rem;
 }  
 
+
  */
 
+ .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 4rem auto;
+    gap: 1rem;
 
 
 
