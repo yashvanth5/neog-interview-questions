@@ -9,12 +9,26 @@ inputBox.addEventListener('input', () => {
     outputEl.innerText = inputBox.value;
 });
 
-addBtn.addEventListener('click' , () => {
-    fontsize +=2;
+
+addBtn.addEventListener('click' , (increseFontSize) );
+
+function increseFontSize(){
+    fontSize+=2;
+    outputEl.style.fontSize = fontSize+'px'; 
+
+
+
+}
+
+minusBtn.addEventListener ('click' ,  (decreseFontSize));
+
+
+function decreseFontSize(){
+    fontSize-=2;
     outputEl.style.fontSize = fontSize+'px';
-});
+}
 
 
-minusBtn.addEventListener('click', decreaseFontsize);
+
 
 
