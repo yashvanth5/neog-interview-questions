@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+body{
+    margin: auto;
+    background-color: rgb(138, 194, 175);
+}
+
+:root {
+    --primary-color: #ebfc32;
+    --secondary-color: #e03e54;
+}
+.container {
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 1.5rem;
+    text-align: center;
+    display: block;
+ 
+    margin-top: 5rem;
+}
+
+button{
+    font-size: 1.5rem;
+    display: block;
+    margin: 1rem;
+    padding: 0.2rem 0.8rem;
+    
+
+}
+
+#heading-1 {
+    color: var(--primary-color);
+}
+#heading-2 {
+    color: var(--secondary-color);
+}
+
+#primary-btn{
+    background-color: var(--primary-color);
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+#secondary-btn {
+    background-color: var(--secondary-color);
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+.btn {
+    /* display: block;
+    align-items: center; */
+    margin-left: 45rem;
+    margin-top: 2rem;
+}
